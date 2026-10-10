@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="dashboard">
+        <p class="eyebrow">YOUR FITNESS JOURNEY</p>
+        <h1>Workout Tracker</h1>
+        <p>Build consistency. Get stronger. Level up.</p>
+
+        <section class="stats">
+            <article class="card">
+                <span>🔥 Current Streak</span>
+                <h2>0 days</h2>
+            </article>
+            <article class="card">
+                <span>⚡ Experience</span>
+                <h2>0 XP</h2>
+            </article>
+            <article class="card">
+                <span>🏆 Level</span>
+                <h2>Level 1</h2>
+            </article>
+        </section>
+
+        <button type="button"
+                onclick="alert('Workout logging is coming next!')">
+            Start Your First Workout
+        </button>
+    </main>
+</body>
+</html>
